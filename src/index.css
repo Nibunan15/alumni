@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-50: #eff4ff;
+  --color-primary-100: #dbe6fe;
+  --color-primary-200: #bfd3fe;
+  --color-primary-500: #3b6cf5;
+  --color-primary-600: #2451d6;
+  --color-primary-700: #1d3fad;
+  --color-primary-800: #1c358a;
+  --color-primary-900: #172c6b;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
